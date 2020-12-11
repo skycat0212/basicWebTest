@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 2</title>
+    <style>
+        .col_wrapper {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: flex;
+            /* width: 500px; */
+        }
+        .col_wrapper .col {
+            width: 50%;
+            height: 50px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+        @media all and (min-width: 600px) {
+            .col_wrapper .col {
+                width: 33%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col_wrapper">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+</body>
+
+</html>
