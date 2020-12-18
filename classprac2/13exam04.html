@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exam04</title>
+    <style>
+        #spinner {
+            width: 200px;
+            height: 200px;
+            border: 12px solid black;
+            border-color: #000 red blue yellow;
+            border-radius: 50%;
+            animation: spin 1s linear 0s infinite reverse;
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotateZ(0deg);
+            }
+            100% {
+                transform: rotateZ(360deg);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div id="spinner"></div>
+</body>
+</html>
